@@ -83,6 +83,9 @@ nav li a {
           color: #757575;
 }
 
+.text-center {
+          text-align: center;
+}
 
 /* header */
 
@@ -121,6 +124,11 @@ main {
           margin: 0 auto;
 }
 
+main section {
+          margin-top: 130px;
+          margin-bottom: 130px;
+}
+
 /* about styles */
 
 .about {
@@ -138,4 +146,19 @@ main {
 
 .item-description {
           font-weight: bold;
+}
+
+
+/* skills section styles */
+
+
+.skills-container {
+          display: flex;
+          gap: 30px;
+}
+
+.skill {
+          padding: 30px;
+          border-radius: 5px;
+          box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
