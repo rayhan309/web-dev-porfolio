@@ -212,3 +212,26 @@ main section {
 /* .experience-title [
             
  ] */
+
+.resume hr {
+          margin: 30px;
+}
+
+/* footer styles */
+.mama {
+          background-color: #FFF8F3;
+          display: flex;
+          padding: 130px 200px;
+          gap: 100px;
+}
+
+footer input[type="text"] {
+          height: 64px;
+          border-radius: 5px;
+          background-color: white;
+          display: block;
+          width: 100%;
+          padding: 10px 20px;
+          margin-bottom: 24px;
+          border: none;
+}
